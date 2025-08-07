@@ -1,0 +1,455 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./css/common.css">
+    <link rel="stylesheet" href="./css/nav.css">
+    <link rel="stylesheet" href="./css/planningProgram_style.css">
+    <title>planningProgram</title>
+</head>
+
+<body>
+    <header>
+        <div id="h_logo"><a href=""><img src="./img/logo.png" alt=""></a></div>
+        <div id="ham"><img src="./img/icon/ham.png" alt=""></div>
+        <article id="ul_wrap" class="h1024">
+            <ul id="menu_wrap">
+                <li><a href="">행사 개요</a></li>
+                <li><a href="">거점도시 프로그램</a></li>
+                <li><a href="">기획 프로그램</a></li>
+                <li><a href="">공예주간 파트너</a></li>
+                <li><a href="">프레스</a></li>
+            </ul>
+            <ul id="pop_wrap" class="h1024">
+                <li><a href="">로그인</a></li>
+                <li><a href="">예매확인</a></li>
+            </ul>
+        </article>
+    </header>
+    <main>
+        <section id="sec1_wrap">
+            <div id="sec1_posi">
+                <div id="sec1_img"></div>
+                <div id="sec1_txt">
+                    <p>Living Together Craft Together</p>
+                    <p>공생공락 共生工樂</p>
+                </div>
+            </div>
+            <ul id="category_wrap" class="flex">
+                <li><a href="">기획프로그램</a></li>
+            </ul>
+        </section>
+        <section id="main_wrap">
+            <div class="title">
+                <p class="txt_title">2025 공예주간 기획 프로그램</p>
+                <p class="txt_sub">전국 곳곳에서 열리는 전시, 체험, 마켓 등 기획 프로그램입니다.<br>
+                    폭넓은 생산과 소비 활동이 만나는 복합 플랫폼을 생성함으로써 일상의 공예를 즐기는 방법을 공유합니다.</p>
+            </div>
+            <!--프로그램 종류,지역,검색 탭-->
+            <div class="flex tab_area">
+                <!--프로그램 종류-->
+                <div class="flex category_wrap">
+                    <div class="txt_bubble">프로그램 종류</div>
+                    <ul class="flex pro_category">
+                        <li><a href="">전체</a></li>
+                        <li><a href="">전시</a></li>
+                        <li><a href="">강연</a></li>
+                        <li><a href="">마켓</a></li>
+                        <li><a href="">체험</a></li>
+                    </ul>
+                </div>
+                <!--프로그램 지역-->
+                <div class="flex loca_wrap">
+                    <div class="txt_bubble">프로그램 지역</div>
+                    <ul class="category_loca">
+                        <li>전체</li>
+                        <li class="loca_hiddden">서울</li>
+                        <li class="loca_hiddden">경기</li>
+                        <li class="loca_hiddden">인천</li>
+                        <li class="loca_hiddden">충남</li>
+                        <li class="loca_hiddden">경북</li>
+                    </ul>
+                    <button>
+                        <img src="./img/icon/small under arrow.png" alt="아래 화살표">
+                    </button>
+                </div>
+                <!--프로그램 검색-->
+                <div id="search_wrap" class="flex hidden1330">
+                    <div class="txt_bubble">프로그램 검색</div>
+                    <form action="submit">
+                        <input type="text" placeholder="검색어를 입력하세요">
+                        <button>
+                            <img src="./img/icon/search.png" alt="검색 아이콘">
+                        </button>
+                    </form>
+                </div>
+                <div id="search_wrap" class="show1330">
+                    <form action="submit" class="flex">
+                        <input type="text" placeholder="검색어를 입력하세요">
+                        <button>
+                            <img src="./img/icon/search.png" alt="검색 아이콘">
+                        </button>
+                    </form>
+                </div>
+            </div>
+            <!--767px 일 때-->
+            <article id="w767_tap">
+                <ul class="flex w767_tap_cate">
+                    <li>
+                        <a href="" class="flex">
+                            <div>
+                                <img src="./img/icon/arrow_bl.png" alt="화살표">
+                            </div>
+                            프로그램 종류
+                        </a>
+                        <!-- <div class="tapborder"></div> -->
+                    </li>
+                    <li>
+                        <a href="" class="flex">
+                            <div>
+                                <img src="./img/icon/arrow_bl.png" alt="화살표">
+                            </div>
+                            프로그램 지역
+                        </a>
+                        <!-- <div class="tapborder"></div> -->
+                    </li>
+                </ul>
+                <ul class="flex w767_tap_loca">
+                    <li><a href="">전체</a></li>
+                    <li><a href="">전시</a></li>
+                    <li><a href="">강연</a></li>
+                    <li><a href="">마켓</a></li>
+                    <li><a href="">체험</a></li>
+                </ul>
+                <div id="search_wrap" class="show1330">
+                    <form action="submit" class="flex">
+                        <input type="text" placeholder="검색어를 입력하세요">
+                        <button>
+                            <img src="./img/icon/search.png" alt="검색 아이콘">
+                        </button>
+                    </form>
+                </div>
+            </article>
+            <!--프로그램 나열 파트-->
+            <article id="pro_content">
+                <!--2개씩 1그룹-->
+                <div class="flex">
+                    <figure class="flex content_box">
+                        <div class="content_img">
+                            <a href="https://udyeong.github.io/teamproject/subpage03.html">
+                                <img src="./img/program1.jpg" alt="미래공예 포스터">
+                            </a>
+                        </div>
+                        <figcaption>
+                            <div class="flex sub_pro_category">
+                                <p>전시</p>
+                                <p>강연</p>
+                            </div>
+                            <div>
+                                <h4 class="pro_tit">미래공예</h4>
+                                <p class="pro_sub">동시대 공예가 직면한 질문과 그 실천의 확장을 탐색하다</p>
+                            </div>
+                            <hr>
+                            <div class="sub_pro_info">
+                                <p class="day">5.16.(금) ~ 25.(일) (월 휴관)</p>
+                                <p>서울 *프로그램 별 상이</p>
+                            </div>
+                            <hr>
+                            <p class="sub_pro_office">컨트리뷰터스(유무형연구소)</p>
+                        </figcaption>
+                        <p class="pro_plus">더보기</p>
+                        <button type="button" class="pro_btn pro1">
+                            <img src="./img/icon/arrow_wt_16px.png" alt="화살표">
+                        </button>
+                    </figure>
+                    <figure class="flex content_box">
+                        <div class="content_img">
+                            <a href="">
+                                <img src="./img/program2.jpg" alt="남산골 HOME 포스터">
+                            </a>
+                        </div>
+                        <figcaption>
+                            <div class="flex sub_pro_category">
+                                <p>전시</p>
+                                <p>마켓</p>
+                                <p>체험</p>
+                            </div>
+                            <div>
+                                <h4 class="pro_tit">남산골 HOME</h4>
+                                <p class="pro_sub">전통과 현대가 만나 만들어내는 새로운 감각</p>
+                            </div>
+                            <hr>
+                            <div class="sub_pro_info">
+                                <p class="day">5.16.(금) ~ 25.(일) / *프로그램 별 상이</p>
+                                <p>서울</p>
+                            </div>
+                            <hr>
+                            <p class="sub_pro_office">쥬스컴퍼니</p>
+                        </figcaption>
+                        <p class="pro_plus">더보기</p>
+                        <button onclick="location.href='#'" class="pro_btn">
+                            <img src="./img/icon/arrow_wt_16px.png" alt="화살표">
+                        </button>
+                    </figure>
+                </div>
+                <!--2개씩 1그룹-->
+                <div class="flex">
+                    <figure class="flex content_box">
+                        <div class="content_img">
+                            <a href="">
+                                <img src="./img/program3.jpg" alt="수선 공예 놀이터 포스터">
+                            </a>
+                        </div>
+                        <figcaption>
+                            <div class="flex sub_pro_category">
+                                <p>전시</p>
+                                <p>마켓</p>
+                                <p>체험</p>
+                            </div>
+                            <div>
+                                <h4 class="pro_tit">수선 공예 놀이터: 뻔한 옷을 FUN하게!</h4>
+                                <p class="pro_sub">수선 기법을 통해 개성을 표현하다</p>
+                            </div>
+                            <hr>
+                            <div class="sub_pro_info">
+                                <p class="day">5.16.(금) ~ 25.(일) / *프로그램 별 상이</p>
+                                <p>서울 / 경주 *프로그램 별 상이</p>
+                            </div>
+                            <hr>
+                            <p class="sub_pro_office">재니들</p>
+                        </figcaption>
+                        <p class="pro_plus">더보기</p>
+                        <button onclick="location.href='#'" class="pro_btn">
+                            <img src="./img/icon/arrow_wt_16px.png" alt="화살표">
+                        </button>
+                    </figure>
+                    <figure class="flex content_box">
+                        <div class="content_img">
+                            <a href="">
+                                <img src="./img/program4.jpg" alt="소만의 일들 포스터">
+                            </a>
+                        </div>
+                        <figcaption>
+                            <div class="flex sub_pro_category">
+                                <p>전시</p>
+                                <p>강연</p>
+                                <p>마켓</p>
+                                <p>체험</p>
+                            </div>
+                            <div>
+                                <h4 class="pro_tit">소만의 일들</h4>
+                                <p class="pro_sub">예술과 일상의 경계에서 공예의 쓰임을 탐구하다</p>
+                            </div>
+                            <hr>
+                            <div class="sub_pro_info">
+                                <p class="day">5.16.(금) ~ 25.(일) (월 휴관)</p>
+                                <p>서울</p>
+                            </div>
+                            <hr>
+                            <p class="sub_pro_office">티더블유엘</p>
+                        </figcaption>
+                        <p class="pro_plus">더보기</p>
+                        <button onclick="location.href='#'" class="pro_btn">
+                            <img src="./img/icon/arrow_wt_16px.png" alt="화살표">
+                        </button>
+                    </figure>
+                </div>
+                <!--2개씩 1그룹-->
+                <div class="flex">
+                    <figure class="flex content_box">
+                        <div class="content_img">
+                            <img src="./img/program5.jpg" alt="내 책상 위의 천사 포스터">
+                        </div>
+                        <figcaption>
+                            <div class="flex sub_pro_category">
+                                <p>전시</p>
+                            </div>
+                            <div>
+                                <h4 class="pro_tit">내 책상 위의 천사</h4>
+                                <p class="pro_sub">작지만 의미 깊은, 다채로운 형상의 '천사'</p>
+                            </div>
+                            <hr>
+                            <div class="sub_pro_info">
+                                <p class="day">5.9.(금) ~ 25.(일) (월, 화 휴관)</p>
+                                <p>서울</p>
+                            </div>
+                            <hr>
+                            <p class="sub_pro_office">팩토리에디션</p>
+                        </figcaption>
+                        <p class="pro_plus">더보기</p>
+                        <button onclick="location.href='#'" class="pro_btn">
+                            <img src="./img/icon/arrow_wt_16px.png" alt="화살표">
+                        </button>
+                    </figure>
+                    <figure class="flex content_box">
+                        <div class="content_img">
+                            <img src="./img/program6.jpg" alt="아름다운 공예 포스터">
+                        </div>
+                        <figcaption>
+                            <div class="flex sub_pro_category">
+                                <p>전시</p>
+                                <p>체험</p>
+                            </div>
+                            <div>
+                                <h4 class="pro_tit">쓰임이 있는 아름다운 공예</h4>
+                                <p class="pro_sub">공예가 일상 속에서 살아 숨 쉬는 방식</p>
+                            </div>
+                            <hr>
+                            <div class="sub_pro_info">
+                                <p class="day">5.14.(수) ~ 6.29.(일) / *프로그램 별 상이</p>
+                                <p>경기</p>
+                            </div>
+                            <hr>
+                            <p class="sub_pro_office">구하우스미술관</p>
+                        </figcaption>
+                        <p class="pro_plus">더보기</p>
+                        <button onclick="location.href='#'" class="pro_btn">
+                            <img src="./img/icon/arrow_wt_16px.png" alt="화살표">
+                        </button>
+                    </figure>
+                </div>
+                <!--2개씩 1그룹-->
+                <div class="flex">
+                    <figure class="flex content_box">
+                        <div class="content_img">
+                            <img src="./img/program7.jpg" alt="한옥마을 포스터">
+                        </div>
+                        <figcaption>
+                            <div class="flex sub_pro_category">
+                                <p>전시</p>
+                                <p>마켓</p>
+                                <p>체험</p>
+                            </div>
+                            <div>
+                                <h4 class="pro_tit">2025 공예로운 한옥마을</h4>
+                                <p class="pro_sub">전통의 숨결이 깃든 공간에서 공예가 전하는 감각</p>
+                            </div>
+                            <hr>
+                            <div class="sub_pro_info">
+                                <p class="day">5.16.(금) ~ 18.(일)</p>
+                                <p>경기</p>
+                            </div>
+                            <hr>
+                            <p class="sub_pro_office">김포도예가협회</p>
+                        </figcaption>
+                        <p class="pro_plus">더보기</p>
+                        <button onclick="location.href='#'" class="pro_btn">
+                            <img src="./img/icon/arrow_wt_16px.png" alt="화살표">
+                        </button>
+                    </figure>
+                    <figure class="flex content_box">
+                        <div class="content_img">
+                            <img src="./img/program8.jpg" alt="공예로 동두천 포스터">
+                        </div>
+                        <figcaption>
+                            <div class="flex sub_pro_category">
+                                <p>전시</p>
+                                <p>체험</p>
+                            </div>
+                            <div>
+                                <h4 class="pro_tit">공예로(工/共藝路), 동두천</h4>
+                                <p class="pro_sub">다문화·공방의 거리로 변화 중인 동두천에서 만나는 공예</p>
+                            </div>
+                            <hr>
+                            <div class="sub_pro_info">
+                                <p class="day">5.16.(금) ~ 25.(일)</p>
+                                <p>경기</p>
+                            </div>
+                            <hr>
+                            <p class="sub_pro_office">스페이스아프로아시아</p>
+                        </figcaption>
+                        <p class="pro_plus">더보기</p>
+                        <button onclick="location.href='#'" class="pro_btn">
+                            <img src="./img/icon/arrow_wt_16px.png" alt="화살표">
+                        </button>
+                    </figure>
+                </div>
+                <!--2개씩 1그룹-->
+                <div class="flex">
+                    <figure class="flex content_box">
+                        <div class="content_img">
+                            <img src="./img/program9.jpg" alt="크래프트 페스타 포스터">
+                        </div>
+                        <figcaption>
+                            <div class="flex sub_pro_category">
+                                <p>전시</p>
+                                <p>체험</p>
+                            </div>
+                            <div>
+                                <h4 class="pro_tit">PEACE ISLAND CRAFT FESTA</h4>
+                                <p class="pro_sub">경계 없이 예술로 연결되는 평화의 공예 축제</p>
+                            </div>
+                            <hr>
+                            <div class="sub_pro_info">
+                                <p class="day">5.22.(목) ~ 23.(금) / * 프로그램 별 상이</p>
+                                <p>인천</p>
+                            </div>
+                            <hr>
+                            <p class="sub_pro_office">공공프리즘</p>
+                        </figcaption>
+                        <p class="pro_plus">더보기</p>
+                        <button onclick="location.href='#'" class="pro_btn">
+                            <img src="./img/icon/arrow_wt_16px.png" alt="화살표">
+                        </button>
+                    </figure>
+                    <figure class="flex content_box">
+                        <div class="content_img">
+                            <img src="./img/program10.jpg" alt="크래프트 커먼스 포스터">
+                        </div>
+                        <figcaption>
+                            <div class="flex sub_pro_category">
+                                <p>체험</p>
+                            </div>
+                            <div>
+                                <h4 class="pro_tit">Craft Commons</h4>
+                                <p class="pro_sub">공동 창작과 배움 속에서 나누는 예술적 즐거움</p>
+                            </div>
+                            <hr>
+                            <div class="sub_pro_info">
+                                <p class="day">5.23.(금) ~ 25.(일)</p>
+                                <p>충남</p>
+                            </div>
+                            <hr>
+                            <p class="sub_pro_office">공예마을규암</p>
+                        </figcaption>
+                        <p class="pro_plus">더보기</p>
+                        <button onclick="location.href='#'" class="pro_btn">
+                            <img src="./img/icon/arrow_wt_16px.png" alt="화살표">
+                        </button>
+                    </figure>
+                </div>
+            </article>
+            <!--페이지 네브-->
+            <nav id="page_wrap">
+                <ul class="flex">
+                    <li>
+                        <span class="li_hidden">열린</span>
+                        <strong class="current_pg">1</strong>
+                        <span class="li_hidden">페이지</span>
+                    </li>
+                    <li>
+                        <a href="">
+                            <span class="pg">2</span>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="">
+                            <span class="pg">3</span>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="" class="last_pg">
+                            <span class="li_hidden">맨끝</span>
+                        </a>
+                    </li>
+                </ul>
+            </nav>
+        </section>
+
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
+        <script src="./js/plan_style.js"></script>
+</body>
+
+</html>

@@ -1,0 +1,114 @@
+header {
+    width: 198px;
+    height: 100%;
+    position: fixed;
+    left: 0;
+    top: 0;
+    z-index: 9999;
+    background-color: #ffffff;
+    padding: 40px 30px;
+    justify-content: space-between;
+    box-sizing: border-box;
+    box-shadow: 0 3px 5px #8a8a8a;
+}
+
+#h_logo {
+    width: 140px;
+    height: auto;
+    margin-bottom: 110px;
+}
+
+#h_logo>a {
+    display: block;
+    width: 100%;
+    height: auto;
+    font-size: 0;
+    padding: 0;
+}
+
+#h_logo img {
+    width: 100%;
+    /* padding: 5px 0; */
+}
+
+#ham {
+    /* width: 70px;
+    height: 70px; */
+    height: 100%;
+    /* box-sizing: border-box; */
+    padding: 20px 25px;
+    background-color: #FF6F1E;
+    display: none;
+}
+
+#ham>img {
+    width: 22px;
+    height: 15px;
+}
+
+nav>ul {
+    color: #0B1215;
+}
+
+#menu_wrap {
+    font-size: 18px;
+    font-weight: bold;
+    padding-bottom: 300px;
+}
+
+#menu_wrap>li {
+    padding-bottom: 28px;
+}
+
+#pop_wrap>li {
+    text-align: center;
+    font-size: 14px;
+    padding: 8px 0;
+    width: 100%;
+    border: 2px solid #FF6F1E; /* 아래 테두리만 */
+}
+
+#pop_wrap > li:last-child {
+    border-top: none; /* 마지막 줄은 선 없앰 */
+}
+
+#pop_wrap>li>a {
+    padding: 5px 40px;
+}
+
+#pop_wrap>li:hover {
+    background-color: #FF6F1E;
+}
+
+#pop_wrap>li:hover a {
+    color: #ffffff;
+}
+
+
+
+@media screen and (max-width: 1024px) {
+    .h1024 {
+        display: none;
+    }
+
+    header {
+        width: 100%;
+        height: auto;
+        padding: 0;
+        position: absolute;
+        display: flex;
+        align-items: center;
+        box-shadow: none;
+        border-bottom: 1px solid #8a8a8a;
+    }
+
+    #h_logo {
+        width: 78px;
+        padding-left: 15px;
+        margin-bottom: 0;
+    }
+
+    #ham {
+        display: block;
+    }
+}

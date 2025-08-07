@@ -1,0 +1,45 @@
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+KR:wght@100..900&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    /* box-sizing: border-box; */
+}
+html{
+    font-size: 20px;
+    font-weight: 500;
+}
+/* body{
+    position: relative;
+} */
+main{
+    margin-left: 198px;
+    width: calc(100% - 198px);
+    /* height: auto; */
+}
+a{
+    text-decoration: none;
+    color: black;
+    padding: 5px 0;
+}
+li{
+    list-style: none;
+}
+.flex{
+    display: flex;
+}
+.flex_col{
+    display: flex;
+    flex-direction: column;
+}
+.w_1500{
+    width: 1500px;
+    margin: 0 auto;
+}
+
+@media screen and (max-width: 1024px){
+    main{
+        width: 100%;
+        margin-left: 0;
+    }
+}
